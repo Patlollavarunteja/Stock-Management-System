@@ -2,41 +2,71 @@ Stock Management System
 A console-based Stock Management System developed in C for managing inventory records efficiently.
 
 Features
-Add new stock items
-Store product quantity
-Store product price
-Display available inventory
-Automatic product ID generation
-Simple menu-driven interface
+- Add Stock Items
+- Display Stock Information
+- Inventory Tracking
+- Product ID Management
+- Console-Based User Interface
+
 Technology Stack
-C Programming Language
-GCC Compiler
-Project Structure
+- C Programming Language
+- GCC Compiler
+
+Repository Structure
 Stock-Management-System
+│
+├── docs/
+│   ├── README.md
+│   └── stock management system.docx
+│
+├── screenshots/
+│   └── README.md
 │
 ├── src/
 │   └── stock_management.c
 │
-├── docs/
-│   └── README.md
+├── .github/
+│   └── workflows/
+│       └── build.yml
 │
 ├── LICENSE
 ├── README.md
 └── .gitignore
+
+Documentation
+The complete project documentation is available in:
+- docs/stock management system.docx
+
 Compilation
 gcc src/stock_management.c -o stock_management
+
 Run
 ./stock_management
+
 Menu
 1. Add Stock Item
 2. Display Stock
 3. Exit
-Future Enhancements
-Update Product
-Delete Product
-Search Product
-File Storage
-Low Stock Alerts
-Sales Reports
+
+Future Improvements
+- Search Products
+- Update Product Details
+- Delete Products
+- Save Inventory to File
+- Load Inventory from File
+- Low Stock Alerts
+- Sales Reports
+- Inventory Analytics
+
+Learning Outcomes
+- C Programming Fundamentals
+- Structures in C
+- Arrays and Functions
+- Menu Driven Applications
+- Inventory Management Concepts
+- Software Documentation
+
 Author
 Patlolla Varun Teja
+Bachelor of Technology (CSE-AIML)
+Marri Laxman Reddy Institute of Technology and Management
